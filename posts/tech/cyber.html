@@ -1,22 +1,177 @@
-<h1 align="center" style="font-size:72px">
-<a href="https://prex-aliya.github.io/index.html">Wiki Wiki</a>
-</h1>
-<details><summary>summary</summary>
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8" />
+                <title>WIKI X WIKI</title>
+
+                <meta name="viewport" content="width=device-width,initial-scale=1" />
+                <meta name="description" content="No one reads this anyway right?" />
+                <link rel="icon" href="favicon.ico">
+
+                <style>
+/* STYLE */
+* {
+        color: #fff;
+        //background: #0D1117;
+        background: #161B22;
+}
+
+
+.grid {
+	border-collapse: collapse;
+}
+.navbar, .row {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+}
+.row { 
+        color: #0AF;
+        margin: auto;
+        padding: 0.5em;
+        border-style: solid none solid none;
+}
+
+.bar, .col { 
+        flex-grow: 1;
+        text-align: justify;
+
+        border-style: none solid none solid;
+        border-color: #F55;
+        border-width: 0.1em;
+}
+.col { 
+        padding: 0 0.5em 0 0.5em;
+}
+.bar {
+        padding: 0 0 0 0;
+}
+
+.navbar:hover { color: #0AF; }
+
+
+body {
+	margin: auto;
+	padding: 1em;
+	max-width: 64em;
+	font-family: "courier new", monospace;
+	//color: #fb5;
+        background: #0D1117;
+	//background: #fff;
+	word-wrap: break-word;
+}
+
+.main { 
+        margin: auto;
+        padding: 1em;
+        text-align: justify;
+        border-style: double;
+}
+
+/* THEGOODS */
+#lil-boi { 
+        text-decoration:none;
+}
+
+.first-boi:after {
+        content: 'wiki_';
+        color: #ffffff;
+} .first-boi:hover:after { content: 'ウィキ'; }
+
+.second-boi:after {
+        content: 'x';
+        color: #4a9f46;
+} .second-boi:hover:after { content: 'X'; }
+
+.third-boi:after {
+        content: '_wiki';
+        color: #ca5329;
+} .third-boi:hover:after { content: 'ウィキ'; }
+
+
+.fancyboi { //color: #fb5; }
+.fancyboi::before { content: "$ "; }
+@media (prefers-reduced-motion: no-preference) {
+	@keyframes flash {
+		50% { opacity: 0; }
+	}
+	@keyframes reveal {
+		from { width: 2em; } /* Width of ::before */
+		  to { width: 100%; }
+	}
+	.fancyboi {
+		overflow: hidden;
+		white-space: nowrap;
+		animation: reveal 2s linear;
+		text-overflow: "█";
+	}
+        .end::after{
+                content: "█";
+                animation: flash 0.5s step-end infinite;
+        }
+}
+@media not (prefers-reduced-motion: no-preference) {
+        .end::after{
+                content: "█";
+        }
+}
+/* SDOOGEHT */
+h2::before { content: "【"; } 
+h2::after { content: "】"; }
+h3::before { content: "「"; } 
+h3::after { content: "」"; }
+h4::before { content: "『"; } 
+h4::after { content: "』"; }
+                </style>
+        </head>
+
+        <body class="body">
+                <h1 style="text-decoration:none;" class="fancyboi" id="lil-boi">man 
+                        <a href="" id="lil-boi" class="first-boi"></a><a href="" id="lil-boi" class="second-boi"></a><a href="" id="lil-boi" class="third-boi"></a>
+                </h1> <!-- top bar -->
+
+                
+                <div class="grid">
+                        <div class="row" align="center">
+                                <div class="bar"><center><a href="../">&larr;back</a></center></div>
+                                <div class="bar"><center><a href="">todo!()</a></center></div>
+                                <div class="bar"><center><a href="/">home</a></center></div>
+                                <div class="bar"><center><a href="">todo!()</a></center></div>
+                                <div class="bar"><center><a href="">todo!()</a></center></div>
+                        </div>
+
+                        <br />
+
+                        <div class="row">
+                                <div class="col"> 
+                                        <div>
+                                                <h1>【（Cybersecurity）】</h1>
+                                                <h1>Summery</h1>
 <p>This is a small in-depth dive to the cybersecurity industry, mainly a list of
 sources.</p>
-</details>
 <h1>Learn (Get You Feet Wet)</h1>
 <h2>Youtube</h2>
-<table><thead><tr><th style="text-align: center">Name</th><th style="text-align: center">Description</th><th style="text-align: center">Link</th></tr></thead><tbody>
-<tr><td style="text-align: center">Liveoverflow</td><td style="text-align: center">One of the best channels on youtube to learn reverse engineering and PWN.</td><td style="text-align: center"><a href="https://www.youtube.com/c/LiveOverflow">link</a></td></tr>
-<tr><td style="text-align: center">IPPSEC</td><td style="text-align: center">Does retired machines from HackTheBox, great way to learn what to do before every machine.</td><td style="text-align: center"><a href="https://www.youtube.com/c/ippsec">Link</a></td></tr>
-<tr><td style="text-align: center">John Hammond</td><td style="text-align: center">Does different kind of CTFs, you can learn how to use lot of tools, and techniques.</td><td style="text-align: center"><a href="https://www.youtube.com/c/JohnHammond010">Link</a></td></tr>
-<tr><td style="text-align: center">David Bombal</td><td style="text-align: center">Great channel to imporve professionally in hacking if you are looking for jobs.</td><td style="text-align: center"><a href="https://www.youtube.com/c/DavidBombal">Link</a></td></tr>
-<tr><td style="text-align: center">NetworkChuck</td><td style="text-align: center">If you are looking where to learn very basic stuff with a fun way, this guy is yours.</td><td style="text-align: center"><a href="https://www.youtube.com/c/NetworkChuck">Link</a></td></tr>
-<tr><td style="text-align: center">CryptoCat</td><td style="text-align: center">Although this channel is newly, it has some really great content you definetly should check</td><td style="text-align: center"><a href="https://www.youtube.com/c/CryptoCat23">link</a></td></tr>
-<tr><td style="text-align: center">HackerSploit</td><td style="text-align: center">This one explains tools, and does HackTheBox retired machines. And also does real life scenarios hacking</td><td style="text-align: center"><a href="https://www.youtube.com/c/HackerSploit">Link</a></td></tr>
+<table><thead><tr><th>Name</th><th>Description</th><th>Link</th></tr></thead><tbody>
+<tr><td>Liveoverflow</td><td>One of the best channels on youtube to learn reverse engineering and PWN.</td><td><a href="https://www.youtube.com/c/LiveOverflow">link</a></td></tr>
+<tr><td>IPPSEC</td><td>Does retired machines from HackTheBox, great way to learn what to do before every machine.</td><td><a href="https://www.youtube.com/c/ippsec">Link</a></td></tr>
+<tr><td>John Hammond</td><td>Does different kind of CTFs, you can learn how to use lot of tools, and techniques.</td><td><a href="https://www.youtube.com/c/JohnHammond010">Link</a></td></tr>
+<tr><td>David Bombal</td><td>Great channel to imporve professionally in hacking if you are looking for jobs.</td><td><a href="https://www.youtube.com/c/DavidBombal">Link</a></td></tr>
+<tr><td>NetworkChuck</td><td>If you are looking where to learn very basic stuff with a fun way, this guy is yours.</td><td><a href="https://www.youtube.com/c/NetworkChuck">Link</a></td></tr>
+<tr><td>CryptoCat</td><td>Although this channel is newly, it has some really great content you definetly should check</td><td><a href="https://www.youtube.com/c/CryptoCat23">link</a></td></tr>
+<tr><td>HackerSploit</td><td>This one explains tools, and does HackTheBox retired machines. And also does real life scenarios hacking</td><td><a href="https://www.youtube.com/c/HackerSploit">Link</a></td></tr>
 </tbody></table>
 <h2>MISC</h2>
 <ul>
 <li><a href="https://github.com/mza7a/pentest-checklist">mza7a pentest-checklist</a></li>
 </ul>
+<!-- vim: tw=64 tabstop=4 shiftwidth=4 expandtab
+-->
+
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+
+                <div class="end"><br />$ </div>
+        </body>
+</html>
