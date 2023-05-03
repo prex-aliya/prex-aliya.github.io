@@ -1,11 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>cobalt blog</title><link>http://example.com</link><description>Blog Posts Go Here</description><item><title>Readme</title><link>http://example.com/posts/README.html</link><description><![CDATA[<!--<pre align="center">
-     ▄▄        ▄                                      ▄▄        ▄
- ▄▄▄▄██▄▄▄▄    ██   ▄                             ▄▄▄▄██▄▄▄▄    ██   ▄
- █        █ ▄▄▄███▀▀             ▄▄█   ▀▄    ▄▀   █        █ ▄▄▄███▀▀             ▄▄█
- ▀        █     ██   ▄▄       ▄▄██▀▀     ▀▄▄▀     ▀        █     ██   ▄▄       ▄▄██▀▀
-          █   ▄▄███▀▀▀   ▄▄▄████         ▄▀▀▄              █   ▄▄███▀▀▀   ▄▄▄████
-       ▄▄█▀  ▀▀  ██      ▀▀▀  ██       ▄▀    ▀▄        ▄▄█▀  ▀▀  ██      ▀▀▀  ██
-     ▀▀▀▀         ██          ██                     ▀▀▀▀         ██          ██
-</pre>-->]]></description><guid>http://example.com/posts/README.html</guid></item><item><title>First Post</title><link>http://example.com/posts/anime/example.html</link><description><![CDATA[<h1>TOBE DONE</h1>
-]]></description><guid>http://example.com/posts/anime/example.html</guid></item><item><title>Cybersecurity</title><link>http://example.com/posts/tech/cyber.html</link><description><![CDATA[<h1>Summery</h1>
-]]></description><guid>http://example.com/posts/tech/cyber.html</guid></item></channel></rss>
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>cobalt blog</title><link>http://example.com</link><description>Blog Posts Go Here</description><item><title>A list of Wiki&apos;s</title><link>http://example.com/posts/wiki.html</link><description><![CDATA[<table>
+    <tr>
+        <th>NAME</th>
+        <th>DESCRIPTION</th>
+    </tr>
+    <tr>
+        <td>NAME</td>
+        <td>The Name of the Wiki</td>
+    </tr>
+    <tr>
+        <td>DESCRIPTION</td>
+        <td>A Description of the Wiki</td>
+    </tr>
+    <tr>
+        <td>URL</td>
+        <td><a
+        href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL">Uniform Resource Locator</a></td>
+    </tr>
+    <tr>
+        <td>TOR</td>
+        <td>
+            <ul>
+                <li>TRUE - Works at least 1 out of then tor circuts</li>
+                <li>KINDA - Less then 9, more than 1, times out of ten</li>
+                <li>FALSE - Does not work 9 out 10 times</li>
+                <li>UNKNOWN - Has not been tested</li>
+            </ul> 
+        </td>
+    </tr>
+</table>]]></description><guid>http://example.com/posts/wiki.html</guid></item></channel></rss>
